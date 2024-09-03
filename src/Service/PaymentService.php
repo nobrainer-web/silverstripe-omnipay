@@ -41,6 +41,9 @@ abstract class PaymentService
     use Extensible;
     use Injectable;
 
+    public LoggerInterface $logger;
+    public LoggerInterface $exceptionLogger;
+
     /**
      *
      */
